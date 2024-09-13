@@ -1,0 +1,81 @@
+ Security - Todos os direitos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
+Estilos CSS (styles.css)
+css
+Copiar código
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #111;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: #ff0000;
+    font-size: 3em;
+}
+
+header p {
+    color: #ccc;
+}
+
+#team {
+    margin: 50px 0;
+    text-align: center;
+}
+
+#team h2 {
+    font-size: 2.5em;
+    color: #ff0000;
+    margin-bottom: 20px;
+}
+
+.team-member {
+    margin-bottom: 30px;
+}
+
+.team-member h3 {
+    color: #ff0000;
+    font-size: 1.8em;
+}
+
+.team-member a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #ff0000;
+    padding: 10px 20px;
+    transition: background 0.3s ease;
+}
+
+.team-member a:hover {
+    background: #ff0000;
+}
+
+footer {
+    background: #111;
+    color: #ccc;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
